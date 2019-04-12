@@ -1,0 +1,28 @@
+PODS:
+  - DifferenceKit (1.0.0):
+    - DifferenceKit/Core (= 1.0.0)
+    - DifferenceKit/UIKitExtension (= 1.0.0)
+  - DifferenceKit/Core (1.0.0)
+  - DifferenceKit/UIKitExtension (1.0.0):
+    - DifferenceKit/Core
+  - SectionedData (0.1.0):
+    - DifferenceKit (~> 1.0.0)
+
+DEPENDENCIES:
+  - SectionedData (from `..`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DifferenceKit
+
+EXTERNAL SOURCES:
+  SectionedData:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  DifferenceKit: d501e37b866e98a8aaee0f61ceb02ad98e52b9c1
+  SectionedData: f362a1800163ab4aca574300aa3fb8fbcf2ee2be
+
+PODFILE CHECKSUM: be56b0547d581355b663d761a14f3515263ac173
+
+COCOAPODS: 1.5.3
