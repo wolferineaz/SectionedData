@@ -21,6 +21,8 @@
 		75D98FF022608AE40008D004 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D98FEB22608AE40008D004 /* ExampleViewController.swift */; };
 		75D98FF122608AE40008D004 /* ExampleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D98FEC22608AE40008D004 /* ExampleConfigurator.swift */; };
 		75D98FF222608AE40008D004 /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75D98FED22608AE40008D004 /* ExampleViewController.xib */; };
+		75D98FF72260A3080008D004 /* ExampleInfoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D98FF52260A3080008D004 /* ExampleInfoTableCell.swift */; };
+		75D98FF82260A3080008D004 /* ExampleInfoTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75D98FF62260A3080008D004 /* ExampleInfoTableCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		75D98FEB22608AE40008D004 /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 		75D98FEC22608AE40008D004 /* ExampleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleConfigurator.swift; sourceTree = "<group>"; };
 		75D98FED22608AE40008D004 /* ExampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleViewController.xib; sourceTree = "<group>"; };
+		75D98FF52260A3080008D004 /* ExampleInfoTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleInfoTableCell.swift; sourceTree = "<group>"; };
+		75D98FF62260A3080008D004 /* ExampleInfoTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleInfoTableCell.xib; sourceTree = "<group>"; };
 		B4B82153665E11FF4A528AFC /* Pods-SectionedDataExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SectionedDataExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SectionedDataExample/Pods-SectionedDataExample.release.xcconfig"; sourceTree = "<group>"; };
 		C5C6E5478E974A5964EF0D54 /* Pods-SectionedDataExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SectionedDataExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SectionedDataExampleUITests/Pods-SectionedDataExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC8C978B508B02C4E523D6F8 /* Pods-SectionedDataExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SectionedDataExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SectionedDataExampleUITests/Pods-SectionedDataExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -198,13 +202,23 @@
 		75D98FE822608ACF0008D004 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				75D98FF42260A2CF0008D004 /* Cells */,
+				75D98FEB22608AE40008D004 /* ExampleViewController.swift */,
+				75D98FED22608AE40008D004 /* ExampleViewController.xib */,
 				75D98FE922608AE40008D004 /* ExamplePresenter.swift */,
 				75D98FEA22608AE40008D004 /* ExampleRouter.swift */,
-				75D98FEB22608AE40008D004 /* ExampleViewController.swift */,
 				75D98FEC22608AE40008D004 /* ExampleConfigurator.swift */,
-				75D98FED22608AE40008D004 /* ExampleViewController.xib */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		75D98FF42260A2CF0008D004 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52260A3080008D004 /* ExampleInfoTableCell.swift */,
+				75D98FF62260A3080008D004 /* ExampleInfoTableCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		832333526140C696D5CCA6E8 /* Frameworks */ = {
@@ -326,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75D98FBF22608A0B0008D004 /* LaunchScreen.storyboard in Resources */,
+				75D98FF82260A3080008D004 /* ExampleInfoTableCell.xib in Resources */,
 				75D98FF222608AE40008D004 /* ExampleViewController.xib in Resources */,
 				75D98FBC22608A0B0008D004 /* Assets.xcassets in Resources */,
 			);
@@ -449,6 +464,7 @@
 				75D98FEE22608AE40008D004 /* ExamplePresenter.swift in Sources */,
 				75D98FB522608A0A0008D004 /* AppDelegate.swift in Sources */,
 				75D98FF122608AE40008D004 /* ExampleConfigurator.swift in Sources */,
+				75D98FF72260A3080008D004 /* ExampleInfoTableCell.swift in Sources */,
 				75D98FEF22608AE40008D004 /* ExampleRouter.swift in Sources */,
 				75D98FF022608AE40008D004 /* ExampleViewController.swift in Sources */,
 			);
