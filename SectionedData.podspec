@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.platform = :ios
-    s.ios.deployment_target = '12.0'
+    s.ios.deployment_target = '9.0'
     s.name = "SectionedData"
     s.summary = "Base data to implementig as UITableCell/UICollectionView\'s data."
     s.requires_arc = true
