@@ -82,7 +82,7 @@ public class SectionedData<SectionEnum: ExtDifferentiable> {
 
 open class BaseTableCellData: Differentiable {
 
-    var identifier: Int
+    public var identifier: Int
 
     public init(_ identifier: Int) {
         self.identifier = identifier
