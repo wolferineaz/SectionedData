@@ -92,7 +92,7 @@ open class BaseTableCellData: Differentiable {
         return self.identifier
     }
 
-    public func isContentEqual(to source: BaseTableCellData) -> Bool {
+    open func isContentEqual(to source: BaseTableCellData) -> Bool {
         return self == source
     }
 
