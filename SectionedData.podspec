@@ -21,15 +21,13 @@ Pod::Spec.new do |s|
 
     s.homepage = "https://github.com/wolferineaz/SectionedData"
 
-    s.source = { :git => "https://github.com/wolferineaz/SectionedData",
+    s.source = { :git => "https://github.com/wolferineaz/SectionedData.git",
                  :tag => "#{s.version}" }
 
     s.framework = "UIKit"
     s.dependency 'DifferenceKit', '~> 1.0.0'
 
     s.source_files = "Sources/**/*.{swift}"
-
-    s.resources = "Sources/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
     s.swift_version = "4.2"
 
