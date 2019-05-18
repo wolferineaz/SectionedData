@@ -51,6 +51,16 @@ public class SectionedData<SectionEnum: ExtDifferentiable> {
     public func itemAt(_ indexPath: IndexPath) -> BaseTableCellData {
         return self.items[indexPath.section].elements[indexPath.row]
     }
+    
+    public func itemsAt(_ section: SectionEnum) -> [BaseTableCellData] {
+        var items = [BaseTableCellData]()
+        self.items.forEach { (item) in
+            if item.model == section {
+                items.append(contentsOf: item.elements)
+            }
+        }
+        return items
+    }
 
     public func typeAt(_ indexPath: IndexPath) -> SectionEnum {
         return self.items[indexPath.section].model

@@ -51,6 +51,10 @@ class ExampleViewController: UIViewController {
     }
 
     @objc func add() {
+        
+        self.data.itemsAt(.time).forEach { (data) in
+            print((data as? ExampleInfoTableCellData)?.name ?? "none")
+        }
 
         let df = DateFormatter()
         if Bool.random() {

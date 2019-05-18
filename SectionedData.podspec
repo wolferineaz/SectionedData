@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     s.summary = "Base data to implementig as UITableCell/UICollectionView\'s data."
     s.requires_arc = true
 
-    s.version = "0.1.2"
+    s.version = "0.1.3"
 
     s.license = { :type => "MIT", :file => "LICENSE" }
 
