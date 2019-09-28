@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     s.summary = "Base data to implementig as UITableCell/UICollectionView\'s data."
     s.requires_arc = true
 
-    s.version = "0.1.3"
+    s.version = "0.1.4"
 
     s.license = { :type => "MIT", :file => "LICENSE" }
 
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
                  :tag => "#{s.version}" }
 
     s.framework = "UIKit"
-    s.dependency 'DifferenceKit', '~> 1.0.0'
+    s.dependency 'DifferenceKit', '~> 1.1.3'
 
     s.source_files = "Sources/**/*.{swift}"
 
